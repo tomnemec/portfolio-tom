@@ -31,20 +31,13 @@ ul li a:hover {
 
 @media screen and (max-width: 991px) {
   .main-container {
-    padding: 40px;
+    padding: 20px;
   }
   .landing-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  }
-  .about {
-    width: 300px;
-  }
-  .nav-section {
-    align-items: start;
-    width: 350px;
   }
 }
 @media screen and (max-width: 767px) {

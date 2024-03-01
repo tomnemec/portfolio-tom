@@ -1,4 +1,5 @@
 import NavList from "../components/NavList";
+import ProjectList from "../components/ProjectList";
 import SkillList from "../components/SkillList";
 import TechCard from "../components/TechCard";
 import "./home.css";
@@ -19,7 +20,6 @@ function Home() {
               <li>
                 Content creator
                 <a href="https://www.instagram.com/tom.is.coding/">
-                  {" "}
                   @tom.is.codin
                 </a>
               </li>
@@ -30,6 +30,7 @@ function Home() {
           <NavList />
         </section>
         <SkillList />
+        <ProjectList />
       </div>
     </>
   );

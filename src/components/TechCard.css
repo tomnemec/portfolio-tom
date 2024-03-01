@@ -29,3 +29,9 @@
 .tech-item:hover {
   transform: scale(0.9);
 }
+@media screen and (max-width: 991px) {
+  .tech-item {
+    width: 80px;
+    height: 80px;
+  }
+}

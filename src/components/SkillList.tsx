@@ -4,7 +4,9 @@ function SkillList() {
   return (
     <>
       <div className="header">
-        <h1>A. My Skills</h1>
+        <h1>
+          <span className="number-chapter">A. </span>technologies I know
+        </h1>
       </div>
       <ol className="skills">
         <li>

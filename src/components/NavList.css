@@ -1,3 +1,8 @@
+.design-text {
+  line-height: 135%;
+  font-size: 0.75em;
+  margin-bottom: 120px;
+}
 ol {
   padding: 0;
   margin: 0;
@@ -18,11 +23,11 @@ ol li a {
   padding: 50px;
   display: flex;
   flex-direction: column;
-  width: 400px;
   height: 400px;
 }
 .nav-section {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -32,4 +37,9 @@ ol li a {
   font-size: 1.5rem;
   color: var(--color-tertiary);
   font-weight: 200;
+}
+@media screen and (max-width: 991px) {
+  .design-text {
+    display: none;
+  }
 }
