@@ -1,0 +1,35 @@
+ol {
+  padding: 0;
+  margin: 0;
+  list-style: upper-alpha;
+}
+ol li::marker {
+  color: var(--color-tertiary);
+}
+ol li {
+  margin: 10px 0;
+}
+ol li a {
+  text-decoration: none;
+  color: var(--color-secondary);
+  margin: 0 10px;
+}
+.nav-container {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 400px;
+}
+.nav-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.nav-title {
+  transform: translateX(-20px);
+  font-size: 1.5rem;
+  color: var(--color-tertiary);
+  font-weight: 200;
+}

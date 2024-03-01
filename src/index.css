@@ -1,0 +1,17 @@
+:root {
+  --color-primary: #fefef4;
+  --color-secondary: #0e092e;
+  --color-tertiary: rgb(115, 115, 115);
+  --color-lightblue: rgb(225, 234, 243);
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background: var(--color-primary);
+  color: var(--color-secondary);
+}

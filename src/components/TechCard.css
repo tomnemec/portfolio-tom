@@ -1,0 +1,31 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 1rem 0;
+}
+.tech-board {
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 1rem 0;
+  width: 100%;
+}
+.tech-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--color-tertiary);
+  transition: all 0.3s ease-in-out;
+}
+.tech-item:hover {
+  transform: scale(0.9);
+}
