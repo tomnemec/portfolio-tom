@@ -1,22 +1,55 @@
+import { useState } from "react";
 import "./NavList.css";
 
-function TechCard() {
+function NavList() {
+  // State to manage the active page
+  const [activePage, setActivePage] = useState("");
+
+  // Function to set the active page
+  const handleSetActivePage = (pageId: any) => {
+    setActivePage(pageId);
+  };
+
   return (
     <div className="nav-section">
       <div className="nav-container">
         <span className="nav-title">NAVIGATION</span>
         <ol>
           <li>
-            <a href="">technologies I know</a>
+            <a
+              href="#technologies"
+              className={activePage === "technologies" ? "active" : ""}
+              onClick={() => handleSetActivePage("technologies")}
+            >
+              technologies I know
+            </a>
           </li>
           <li>
-            <a href="">what I made</a>
+            <a
+              href="#made"
+              className={activePage === "made" ? "active" : ""}
+              onClick={() => handleSetActivePage("made")}
+            >
+              what I made
+            </a>
           </li>
           <li>
-            <a href="">something about me</a>
+            <a
+              href="#about"
+              className={activePage === "about" ? "active" : ""}
+              onClick={() => handleSetActivePage("about")}
+            >
+              something about me
+            </a>
           </li>
           <li>
-            <a href="">future path & goals</a>
+            <a
+              href="#goals"
+              className={activePage === "goals" ? "active" : ""}
+              onClick={() => handleSetActivePage("goals")}
+            >
+              future path & goals
+            </a>
           </li>
         </ol>
       </div>
@@ -26,4 +59,5 @@ function TechCard() {
     </div>
   );
 }
-export default TechCard;
+
+export default NavList;

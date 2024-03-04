@@ -2,7 +2,7 @@ import "./LearningPath.css";
 
 function LearningPath() {
   return (
-    <div className="learning-path">
+    <div className="learning-path" id="goals">
       <div className="row">
         <div className="dot"></div>
         <div className="dot"></div>

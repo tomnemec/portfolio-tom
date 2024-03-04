@@ -3,7 +3,7 @@ import "./SkillList.css";
 function SkillList() {
   return (
     <>
-      <div className="header">
+      <div className="header" id="technologies">
         <h1>
           <span className="number-chapter">A. </span>technologies I know
         </h1>
