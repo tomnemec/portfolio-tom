@@ -1,10 +1,20 @@
+.about {
+  padding: 40px 80px;
+}
 h1 {
   margin: 0;
   line-height: 110%;
   font-size: 2.5em;
 }
-.about {
-  padding: 40px 80px;
+hr {
+  border: dashed 1px #d3d1d1;
+  border-bottom: none;
+}
+.foot {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  color: #d3d1d1;
 }
 ul {
   padding: 20px;

@@ -35,6 +35,11 @@ function Home() {
         <ProjectList />
         <AboutMe />
         <LearningPath />
+        <hr />
+        <div className="foot">
+          <span>I hope you liked my portfolio!</span>
+          <span>Feel free to contact me on my Instagram or Email.</span>
+        </div>
       </div>
     </>
   );
