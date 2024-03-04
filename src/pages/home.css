@@ -30,19 +30,10 @@ ul li a:hover {
 }
 
 @media screen and (max-width: 991px) {
-  .main-container {
-    padding: 20px;
-  }
   .landing-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  }
-}
-@media screen and (max-width: 767px) {
-  .landing-section {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
   }
 }
