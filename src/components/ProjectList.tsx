@@ -15,9 +15,11 @@ function ProjectList() {
         </div>
         <div className="project-card">
           <img src="./src/assets/ig.png" alt="" />
+          <span className="project-title">Instagram</span>
         </div>
         <div className="project-card">
           <img src="./src/assets/git.png" alt="" />
+          <span className="project-title">Github</span>
         </div>
       </div>
     </>

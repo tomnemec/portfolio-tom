@@ -1,3 +1,5 @@
+import AboutMe from "../components/AboutMe";
+import LearningPath from "../components/LearningPath";
 import NavList from "../components/NavList";
 import ProjectList from "../components/ProjectList";
 import SkillList from "../components/SkillList";
@@ -31,6 +33,8 @@ function Home() {
         </section>
         <SkillList />
         <ProjectList />
+        <AboutMe />
+        <LearningPath />
       </div>
     </>
   );
