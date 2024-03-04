@@ -18,6 +18,12 @@ ol li a {
   text-decoration: none;
   color: var(--color-secondary);
   margin: 0 10px;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+ol li a:hover {
+  background: var(--color-lightblue);
+  color: var(--color-primary);
 }
 .nav-container {
   padding: 50px;

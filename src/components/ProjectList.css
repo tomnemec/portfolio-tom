@@ -1,7 +1,7 @@
 .project-card {
   position: relative;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   background: grey;
@@ -28,7 +28,7 @@
   padding: 20px 0;
   width: 100%;
   background: var(--color-lightblue);
-  min-height: 200px;
+  min-height: 250px;
 }
 .project-list img {
   width: 100%;
