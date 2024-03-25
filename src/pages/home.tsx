@@ -2,6 +2,7 @@ import AboutMe from "../components/AboutMe";
 import LearningPath from "../components/LearningPath";
 import NavList from "../components/NavList";
 import ProjectList from "../components/ProjectList";
+import ReturnButton from "../components/ReturnButton";
 import SkillList from "../components/SkillList";
 import TechCard from "../components/TechCard";
 import "./home.css";
@@ -9,8 +10,9 @@ import "./home.css";
 function Home() {
   return (
     <>
+      <ReturnButton />
       <div className="main-container">
-        <section className="landing-section">
+        <section className="landing-section" id="home">
           <div className="about">
             <h1>
               Hello!
