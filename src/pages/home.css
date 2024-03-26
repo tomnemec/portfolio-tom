@@ -31,6 +31,9 @@ ul li a:hover {
   color: #787575;
 }
 .landing-section {
+  background-color: var(--color-primary);
+  position: relative;
+  z-index: 30;
   display: grid;
   min-height: 100vh;
   padding: 0 0;
