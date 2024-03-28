@@ -1,4 +1,7 @@
 import "./ProjectList.css";
+import CssToolsImage from "../assets/csstools.png";
+import InstagramImage from "../assets/ig.png";
+import GithubImage from "../assets/git.png";
 
 function ProjectList() {
   return (
@@ -11,19 +14,19 @@ function ProjectList() {
       <div className="project-list">
         <a href="https://www.css-tools.dev">
           <div className="project-card">
-            <img src="./src/assets/csstools.png" alt="" />
+            <img src={CssToolsImage} alt="" />
             <span className="project-title">CssTools</span>
           </div>
         </a>
         <a href="https://www.instagram.com/tom.is.coding">
           <div className="project-card">
-            <img src="./src/assets/ig.png" alt="" />
+            <img src={InstagramImage} alt="" />
             <span className="project-title">Instagram</span>
           </div>
         </a>
         <a href="https://www.github.com/tomnemec">
           <div className="project-card">
-            <img src="./src/assets/git.png" alt="" />
+            <img src={GithubImage} alt="" />
             <span className="project-title">Github</span>
           </div>
         </a>
